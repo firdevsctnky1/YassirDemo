@@ -1,0 +1,67 @@
+{
+  "environments": [
+    {
+      "id": "SimpraInvLocalDev",
+      "name": "SimpraInv API Gateway DEV",
+      "oAuthUrl": "http://api-development.simprainventory.net/api/Token",
+      "properties": { 
+        "uiBaseUrl": "https://test.simprainventory.com",
+        "apiBaseUrl": "https://api-development.simprainventory.net/api/",
+        "email": "huqq@huqq.com",
+        "password": "123456"
+      }
+    },
+    {
+      "id": "SimpraInvTest",
+      "name": "SimpraInv API Gateway Test",
+      "oAuthUrl": "http://api-test.simprainventory.net/api/Token",
+      "properties": { 
+        "uiBaseUrl": "https://test.simprainventory.net",
+        "apiBaseUrl": "https://api-test.simprainventory.net/api/",
+        "email": "otomasyonuser@mailinator.com",
+        "password": "123456"
+      }
+    },
+    {
+      "id": "SimpraInvDemo",
+      "name": "SimpraInv API Gateway Demo",
+      "oAuthUrl": "https://api-inventory.simprasuite.com/api/Token",
+      "properties": {
+        "uiBaseUrl": "",
+        "apiBaseUrl": "https://api-inventory.simprasuite.com/api/",
+        "email": "burger@burger.com",
+        "password": "123123"
+      }
+    },
+    {
+      "id": "SimpraInvMobileTest",
+      "name": "SimpraInv Mobile Web Test",
+      "oAuthUrl": "http://api-test.simprainventory.net/api/Token",
+      "properties": {
+        "uiBaseUrl": "https://mobile-test.simprainventory.net",
+        "apiBaseUrl": "https://api-test.simprainventory.net/api/",
+        "email": "otomasyonuser@mailinator.com",
+        "password": "123456"
+      }
+    }
+  ],
+  "iosDevices": [
+    {
+      "id": "iPhone Simulator",
+      "name": "iPhone Simulator",
+      "platformVersion": "10.3"
+    },
+    {
+      "id": "iphone6",
+      "name": "Onur's iPhone",
+      "udid": "08bcec111d3be9dada66f74d5e850d7e12709dff"
+    }
+  ],
+  "androidDevices": [
+    {
+      "id": "Nexus5X-8.0.0",
+      "name": "Nexus5X",
+      "platformVersion": "8.0.0"
+    }
+  ]
+}
